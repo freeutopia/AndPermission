@@ -13,11 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="getAllSdcardFiles"
-        android:text="Button" />
+        android:text="获取sd卡读写权限" />
 
     <Button
         android:id="@+id/cammer_permission_test_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:onClick="useCammer"
+        android:text="获取相机使用权限" />
 </LinearLayout>
